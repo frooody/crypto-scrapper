@@ -2,7 +2,6 @@
 Here is a small script that collects information about most popular existing cryptocurrencies and transfers information about them into csv file
 ## Requirements
 1. Python (https://www.python.org/downloads/)
-*cmd extensions:*
 2. BeautifulSoup4 (pip install beautifulsoup4)
 3. Requests (pip install requests)
 ## Work principle
