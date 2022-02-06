@@ -9,7 +9,7 @@ prices = {}
 
 while True:
     time_now = strftime("%H_%M_%S", gmtime())
-    for i in range(1, 94):
+    for i in range(1, 15):
         url = f'https://coinmarketcap.com/?page={i}'
         site = rq.get(url).text
         doc = bs(site, 'html.parser')
